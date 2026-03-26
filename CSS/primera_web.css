@@ -10,6 +10,21 @@ background:#f7f4ef;
 color:#111;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estil per als links del menú */
+.nav a {
+    color: white;       
+    text-decoration: none; 
+    font-weight: bold;   
+}
+
+/* Hover estilitzat */
+.nav a:hover {
+    color: #ff3c00;  /
+}
 
 /* HERO */
 header{
