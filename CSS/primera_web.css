@@ -231,34 +231,33 @@ text-align:center;
 /* MOBILE */
 @media (max-width:768px){
 
-  h1{
-    font-size:calc(6vw + 10px); /* font responsive segons l'amplada */
-    line-height:1.1;
-    word-wrap: break-word; /* permet trencar línies si cal */
-    white-space: normal; /* evita que es talli amb overflow */
-  }
+    section {
+        max-width:100%;
+        margin:50px 10px; /* una mica de marge lateral */
+        padding:0 10px;
+    }
 
-  header div{
-    padding: 0 10px; /* una mica d'espai lateral */
-  }
+    h1{
+        font-size:8vw; /* font basada en l'amplada de pantalla */
+        line-height:1.2;
+        word-wrap: break-word;
+        white-space: normal;
+    }
 
-.lineup > div{
-flex-direction:column;
-gap:20px;
-}
+    header div{
+        padding: 0 15px; /* espai lateral */
+    }
 
-.lineup > div > div{
-width:100%;
-}
+    .lineup > div,
+    .tickets > div {
+        flex-direction: column;
+        gap: 20px;
+    }
 
-.tickets > div{
-flex-direction:column;
-gap:20px;
-}
-
-.tickets > div > div{
-width:100%;
-}
+    .lineup > div > div,
+    .tickets > div > div {
+        width: 100%;
+    }
 
 body{
 overflow-x:hidden;
