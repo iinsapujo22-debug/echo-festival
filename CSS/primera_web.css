@@ -349,8 +349,8 @@ flex-direction:column;
 grid-template-columns:1fr;
 }
 
-.nav a{
-font-size:5vw;
+.nav{
+font-size:14px;
 }
 
 }
