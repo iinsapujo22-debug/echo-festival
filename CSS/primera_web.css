@@ -14,10 +14,6 @@ html {
     scroll-behavior: smooth;
 }
 
-html {
--webkit-text-size-adjust: 100%;
-text-size-adjust: 100%;
-}
 
 /* Ocultar links */
 .skip-link{
@@ -235,24 +231,21 @@ text-align:center;
 /* MOBILE */
 @media (max-width:768px){
 
-h1{
-font-size:52px;
-}
-
 .lineup > div{
 flex-direction:column;
+gap:20px;
+}
+
+.lineup > div > div{
+width:100%;
 }
 
 .tickets > div{
 flex-direction:column;
+gap:20px;
 }
 
-header{
-height:75vh;
-}
-
-.lineup > div,
-.tickets > div{
+.tickets > div > div{
 width:100%;
 }
 
