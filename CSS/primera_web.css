@@ -256,6 +256,10 @@ height:75vh;
 width:100%;
 }
 
+body{
+overflow-x:hidden;
+}
+
 }
 
 /* NAV */
