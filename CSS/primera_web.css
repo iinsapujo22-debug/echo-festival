@@ -231,10 +231,16 @@ text-align:center;
 /* MOBILE */
 @media (max-width:768px){
 
-h1{
-font-size:38px;
-line-height:1.1;
-}
+  h1{
+    font-size:calc(6vw + 10px); /* font responsive segons l'amplada */
+    line-height:1.1;
+    word-wrap: break-word; /* permet trencar línies si cal */
+    white-space: normal; /* evita que es talli amb overflow */
+  }
+
+  header div{
+    padding: 0 10px; /* una mica d'espai lateral */
+  }
 
 .lineup > div{
 flex-direction:column;
