@@ -346,8 +346,13 @@ grid-template-columns:1fr;
 
 .nav{
 font-size:20px;
-gap:14px;
+left:0;
+right:0;
+justify-content:center;
+gap:20px;
 flex-wrap:wrap;
+text-align:center;
 }
+
 
 }
