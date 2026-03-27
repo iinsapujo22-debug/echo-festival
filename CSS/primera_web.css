@@ -231,6 +231,11 @@ text-align:center;
 /* MOBILE */
 @media (max-width:768px){
 
+h1{
+font-size:38px;
+line-height:1.1;
+}
+
 .lineup > div{
 flex-direction:column;
 gap:20px;
