@@ -345,7 +345,7 @@ grid-template-columns:1fr;
 }
 
 .nav{
-font-size:14px;
+font-size:clamp(14px, 2.5vw, 20px);
 }
 
 }
