@@ -14,6 +14,27 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Ocultar links */
+.skip-link{
+position:absolute;
+left:-9999px;
+top:auto;
+}
+
+.skip-link:focus{
+left:20px;
+top:20px;
+background:black;
+color:white;
+padding:10px;
+z-index:999;
+}
+
+:focus{
+outline:3px solid #ff3c00;
+outline-offset:3px;
+}
+
 /* Estil per als links del menú */
 .nav a {
     color: white;       
@@ -26,7 +47,7 @@ html {
     color: #ff3c00;  /
 }
 
-/* HERO */
+/* HEADERS */
 header{
 position:relative;
 height:90vh;
@@ -78,7 +99,7 @@ font-weight:500;
 }
 
 
-/* BUTTON */
+/* BUTTONS */
 button{
 margin-top:20px;
 padding:14px 26px;
